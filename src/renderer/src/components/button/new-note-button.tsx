@@ -6,8 +6,8 @@ import { FilePenLine } from 'lucide-react'
 export const NewNoteButton = ({ ...props }: ActionButtonPropsType) => {
   const createEmptyNote = useSetAtom(createEmptyNoteAtom)
 
-  const handleCreation = () => {
-    createEmptyNote()
+  const handleCreation = async () => {
+    await createEmptyNote()
   }
 
   return (
