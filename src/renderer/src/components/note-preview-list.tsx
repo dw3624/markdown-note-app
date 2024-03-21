@@ -16,7 +16,7 @@ export const NotePreviewList = ({
     onSelect,
   })
 
-  console.log(notes[selectedNoteIndex])
+  if (!notes) return null
 
   if (notes.length === 0) {
     return (
