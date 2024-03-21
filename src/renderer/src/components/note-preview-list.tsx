@@ -3,7 +3,10 @@ import { cn } from '@renderer/utils'
 import React, { ComponentProps } from 'react'
 import { NotePreview } from './note-preview'
 
-const NotePreviewList = ({ className, ...props }: ComponentProps<'ul'>) => {
+export const NotePreviewList = ({
+  className,
+  ...props
+}: ComponentProps<'ul'>) => {
   if (notesMock.length === 0) {
     return (
       <ul className={cn('text-center pt-4', className)} {...props}>
@@ -20,5 +23,3 @@ const NotePreviewList = ({ className, ...props }: ComponentProps<'ul'>) => {
     </ul>
   )
 }
-
-export default NotePreviewList

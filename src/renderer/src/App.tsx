@@ -1,5 +1,12 @@
-import { ActionButtonsRow, Content, RootLayout, Sidebar } from '@/components'
-import NotePreviewList from './components/note-preview-list'
+import {
+  ActionButtonsRow,
+  Content,
+  FloatingNoteTitle,
+  MarkdownEditor,
+  NotePreviewList,
+  RootLayout,
+  Sidebar,
+} from '@/components'
 
 const App = () => {
   return (
@@ -10,7 +17,8 @@ const App = () => {
           <NotePreviewList className="mt-3 space-y-1" />
         </Sidebar>
         <Content className="border-l bg-zinc-900/50 border-l-white/20">
-          Content
+          <FloatingNoteTitle className="pt-2" />
+          <MarkdownEditor />
         </Content>
       </RootLayout>
     </>

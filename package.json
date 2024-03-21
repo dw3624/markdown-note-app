@@ -25,11 +25,13 @@
   },
   "dependencies": {
     "@electron-toolkit/preload": "^3.0.0",
-    "@electron-toolkit/utils": "^3.0.0"
+    "@electron-toolkit/utils": "^3.0.0",
+    "@mdxeditor/editor": "^2.16.0"
   },
   "devDependencies": {
     "@biomejs/biome": "1.6.1",
     "@electron-toolkit/tsconfig": "^1.0.1",
+    "@tailwindcss/typography": "^0.5.10",
     "@types/node": "^18.19.9",
     "@types/react": "^18.2.48",
     "@types/react-dom": "^18.2.18",
