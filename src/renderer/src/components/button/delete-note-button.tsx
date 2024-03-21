@@ -6,8 +6,8 @@ import { Trash2 } from 'lucide-react'
 export const DeleteNoteButton = ({ ...props }: ActionButtonPropsType) => {
   const deleteNote = useSetAtom(deleteNoteAtom)
 
-  const handleDelete = () => {
-    deleteNote()
+  const handleDelete = async () => {
+    await deleteNote()
   }
 
   return (
