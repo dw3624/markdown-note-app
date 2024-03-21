@@ -26,7 +26,8 @@
   "dependencies": {
     "@electron-toolkit/preload": "^3.0.0",
     "@electron-toolkit/utils": "^3.0.0",
-    "@mdxeditor/editor": "^2.16.0"
+    "@mdxeditor/editor": "^2.16.0",
+    "jotai": "^2.7.1"
   },
   "devDependencies": {
     "@biomejs/biome": "1.6.1",
